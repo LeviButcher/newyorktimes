@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: sans-serif;
+}
+/* Top Navigation */
+
+#topnav {
+  height: 50px;
+  padding: 0 150px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+#topnav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+#topnav ul > li {
+  margin: auto 5px;
+}
+
+.main-flex-title {
+  flex-basis:60%!important;
+  text-align: center;
+}
+
+.flex-icon {
+  flex-basis: 2%!important;
+}
+
+/* Misc */
+
+.btn {
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/* Title */
+
+#title {
+  padding: 50px 300px;
+}
+
+#title h1 {
+  text-align: left;
+  width: 28%;
+  margin: auto auto auto 300px;
+}
+
+#title img {
+  width: 100%;
+}
+
+main {
+  margin: auto;
+  width: 600px;
+}
+
+/*Space Pic */
+.space-pic-container {
+  position: relative;
+  font-size: 8pt;
+}
+
+.space-pic-container + hr {
+  width: 100px;
+  margin-left: 0;
+}
+
+.space-pic-container > div{
+  position: absolute;
+  z-index: 1000;
+  width: 20%;
+}
+
+#space-pic {
+  display: block;
+  width: 100%;
+}
+
+#universe {
+  top: 100px;
+  left: 0;
+}
+
+#enough-time {
+  top: 100px;
+  left: 160px;
+}
+
+#distant-coffee {
+  top:100px;
+  left: 300px;
+}
+
+#coffee-every {
+  top: 100px;
+  left: 460px;
+}
+
+#still-no-time {
+  top: 360px;
+  left: 0;
+}
+
+#inflation {
+  top: 360px;
+  left: 160px;
+}
+
+#fluctuation {
+  top: 360px;
+  left: 300px;
+}
+
+#expansion {
+  top: 360px;
+  left: 460px;
+}
+
+main figure {
+  margin: 0;
+}
+
+video {
+  width: 100%;
+}
+
+.center {
+  display: block;
+  margin: auto;
+  width: max-content;
+}
